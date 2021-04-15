@@ -222,7 +222,7 @@ min-height:600px;
 	
  }
 
- .left li, .main-menu li {
+ .left li {
   text-align:left;
   /* float: left; */ 
   height: 50px; 
@@ -230,6 +230,15 @@ min-height:600px;
   /* display:table-cell; */
   /* width:  calc(99.9% / 6) ;  */
   border-bottom:solid 1px #fff;
+ } 
+ 
+ .main-menu li {
+  text-align:left;
+  /* float: left; */ 
+  height: 50px; 
+  font-weight:bold; 
+  /* display:table-cell; */
+  /* width:  calc(99.9% / 6) ;  */
  } 
 
 
