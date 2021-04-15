@@ -1,0 +1,16 @@
+ 
+ .errorbox {
+ padding:10px;
+ min-height:400px;
+ font-size:1.5em;
+  text-align: left;
+}
+ .errorbox  ul{
+
+ font-weight:bold;
+ }
+  .errorbox  p{
+  text-indent: 1.5em;
+  line-height: 1.5;
+
+ }
