@@ -1,0 +1,75 @@
+
+textarea {
+  width:732px; 
+  height:200px;
+  box-sizing: border-box;
+  resize: none;
+  border: 1px solid #ccc;
+  padding: 6px;
+  color: #4b4b4b; 
+  }
+input[type="text"]{
+   width: 290px;
+   height: 25px;
+   padding-left: 5px;
+   padding-right: 5px;
+   border: 1px solid #ccc;
+   border-radius: 0px; 
+   -webkit-border-radius: 0px; 
+   -moz-border-radius: 0px; 
+   -khtml-border-radius: 0px; 
+   background: #fff !important; 
+   outline: none; 
+   color: #000; 
+   font-size: 11px; 
+   font-family: Tahoma; 
+
+}
+input[type="submit"]{
+    color: #0b0b0b;	
+	margin-top:10px;
+	background:#eaeafa;
+	border: 1px solid #444;
+	
+	padding: 3px 8px;
+	font-weight:bold;
+
+}
+
+input[type="submit"]:hover{
+	color: #6b6b6b;
+	border: 1px solid #ccc;
+	cursor: pointer;
+	
+}
+	
+input[type="text"]:hover{
+	border: 1px solid #000;
+}
+
+	
+input[placeholder]          {text-overflow:ellipsis;}
+input::-moz-placeholder     {text-overflow:ellipsis;} 
+input:-moz-placeholder      {text-overflow:ellipsis;} 
+input:-ms-input-placeholder {text-overflow:ellipsis; color:#555;}    
+:focus::-webkit-input-placeholder {color: transparent}
+:focus::-moz-placeholder          {color: transparent}
+:focus:-moz-placeholder           {color: transparent}
+:focus:-ms-input-placeholder      {color: transparent}
+
+
+input[type="checkbox"]:invalid {
+	box-shadow: none;
+}
+
+}
+/* input[type="checkbox"] + label {
+    cursor: pointer;
+}
+*/
+label::selection {
+   background: transparent;
+}
+label::-moz-selection {
+   background: transparent;
+}
