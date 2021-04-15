@@ -149,9 +149,14 @@ min-height:600px;
    }
    /* НИЗ */
    
-   .site-footer {
+   footer {
    text-align: right;
    }
+   .site-footer { 
+    height: 10px; 
+}
+
+   
    .site-bottom  {
     margin-top:5px;
     border-top:solid 1px #ddd;
