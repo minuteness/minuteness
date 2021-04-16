@@ -1,4 +1,96 @@
 
+/* НАВИГАЦИЯ */
+
+ .left {
+   float:left;  
+   width:220px;
+   margin-top: 6px;
+   margin-bottom: 2px;   
+}
+ 
+ .left ul {
+    list-style: none;
+    display:block;
+	/* display:table; */
+	width:200px;
+	/* height:100%; */
+	margin:0;
+	padding:0;
+	/* background: #000; */
+	
+ }
+ .main-menu ul {
+    list-style: none;
+    display:block;
+	/* display:table; */
+	width:210px;
+	/* height:100%; */
+	margin:0;
+	padding:0;
+	/* background: #000; */
+	
+ }
+
+ .left li {
+  text-align:left;
+  /* float: left; */ 
+  height: 50px; 
+  font-weight:bold; 
+  /* display:table-cell; */
+  /* width:  calc(99.9% / 6) ;  */
+  border-bottom:solid 1px #f3f4ff;
+  /* font-family: MachinaOrtoDgGr; */
+ } 
+ 
+ .main-menu li {
+  text-align:left;
+  /* float: left; */ 
+  height: 50px; 
+  font-weight:bold; 
+  /* display:table-cell; */
+  /* width:  calc(99.9% / 6) ;  */
+ } 
+
+
+ 
+/*  .nav li:not([class]) {  */
+ /* border-left: solid 1px #ba7; */
+ /* background:#986; */
+ /* background: transparent; */
+/* } */
+ .nav  a, .tab-menu-active a{
+ display:block;
+ height: 100%;
+ color: #808080; 
+ text-decoration:none;  
+ font-weight:bold;  
+ padding: 0 10px;
+}
+.nav  a:hover{
+	color: #cecece;
+}
+
+ .tab-menu-active { 
+ background: #483858;/*rgba(50, 40, 70, 0.8); */
+
+}
+ .home-page { 
+ background: #373955;/*rgba(50, 40, 70, 0.8); */
+
+}
+ .nav li:hover {
+ background:rgba(55, 57, 85, 0.8); 
+
+}
+.menu-title {
+ position:relative;
+ top:30%; 
+ margin-left:20px;
+
+}
+
+/* ВЫПАДАНИЕ */
+
 .nav > li{
   position: relative; 
 }
@@ -16,6 +108,7 @@
     display: none; 
     top: 5px; 
     left: 200px; 
+	min-width:220px;
    }
 
  .nav li:hover ul {
@@ -37,4 +130,12 @@
   
   color:#fff;
   text-decoration:none;
+}
+
+.nav li ul li .menu-title {
+ position:relative;
+ top:10%; 
+ margin-left:20px;
+}
+
 }
