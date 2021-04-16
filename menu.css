@@ -1,0 +1,40 @@
+
+.nav > li{
+  position: relative; 
+}
+
+/* .nav > li:hover {
+/* background: #000; */
+} */
+.nav > li > a{
+  /* font-size:18px; */
+}
+
+
+  .nav li ul {
+    position: absolute; 
+    display: none; 
+    top: 5px; 
+    left: 200px; 
+   }
+
+ .nav li:hover ul {
+   display: block; 
+   }
+
+.nav li ul li{
+  text-align:left;
+  /* background: #c3c33c; */
+  background:rgba(55, 57, 85, 0.8); 
+   
+}
+
+.nav li ul li:hover {
+  background: #292a40;
+
+}
+.nav li ul li a{
+  
+  color:#fff;
+  text-decoration:none;
+}

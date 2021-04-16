@@ -195,6 +195,8 @@ min-height:600px;
   text-align:right;
   
 } 
+/* НАВИГАЦИЯ */
+
  .left {
    float:left;  
    width:220px;
@@ -250,7 +252,7 @@ min-height:600px;
  .nav li:not([class]) {
  /* border-left: solid 1px #ba7; */
  /* background:#986; */
- background: transparent;
+ /* background: transparent; */
 }
  .nav  a, .tab-menu-active a{
  display:block;
@@ -282,6 +284,8 @@ min-height:600px;
  margin-left:20px;
 
 }
+
+/* НАВИГАЦИЯ */
 
 .content a, .content a:visited{
  color:#448;
