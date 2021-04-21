@@ -124,16 +124,24 @@ min-height:600px;
 
 }
 
+
+img.center{
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;		
+}
+
    .leftimg {
     float:left; 
     margin: 7px 16px 2px 0;
     border-radius: 5px;	
-   }
+	   }
    
    .rightimg  {
     float: right;  
     margin: 7px 0 2px 16px; 
 	border-radius: 5px;
+	max-width:500px;
    }
    
    .img-wrap{

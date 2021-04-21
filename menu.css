@@ -108,7 +108,7 @@
     display: none; 
     top: 5px; 
     left: 200px; 
-	min-width:220px;
+	min-width:340px;
    }
 
  .nav li:hover ul {
@@ -135,7 +135,7 @@
 .nav li ul li .menu-title {
  position:relative;
  top:10%; 
- margin-left:20px;
+ margin-left:0;
 }
 
 }
