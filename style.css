@@ -128,7 +128,9 @@ min-height:600px;
 img.center{
     display: block;
     margin: 0 auto;
-    border-radius: 5px;		
+	border-radius: 5px;
+    max-width:800px;
+    min-width:200px;	
 }
 
    .leftimg {
