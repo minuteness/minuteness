@@ -139,7 +139,7 @@ img.center{
     border-radius: 5px;	
 	   }
    
-   .rightimg  {
+   .rightimg {
     float: right;  
     margin: 7px 0 2px 16px; 
 	border-radius: 5px;
@@ -156,11 +156,27 @@ img.center{
 	margin: 10px;
    }
 
-   .view img{
+   .view img {
     width:310px;
     border:none;
    }
-   /* НИЗ */
+  
+  /* ИКОНКИ ПРИКРЕПЛЁННЫХ ФАЙЛОВ   */
+div.attachments {
+    float: left;
+	max-width:200px;
+   
+   }
+   .attachments img {
+   padding: 10px 10px;
+   }
+   .attachments p {
+   margin: 0;
+   text-indent: 0;
+   text-align: center;
+   }
+
+  /* НИЗ */
    
    footer {
    text-align: right;
